@@ -1,0 +1,11 @@
+uuid: 1cbd1d54-2dfb-4d29-99eb-094adebca507
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.interests
+id: taxonomy_term.interests
+target_entity_type_id: taxonomy_term
+target_bundle: interests
+default_langcode: site_default
+language_alterable: false

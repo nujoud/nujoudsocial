@@ -1,0 +1,11 @@
+uuid: db695828-d7c4-4a44-b728-8caeeccc85ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - message.template.create_comment_following_node
+id: message.create_comment_following_node
+target_entity_type_id: message
+target_bundle: create_comment_following_node
+default_langcode: site_default
+language_alterable: false

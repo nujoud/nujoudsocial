@@ -1,0 +1,17 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: انتقاء
+          reset_button_label: 'إعادة الضبط'
+      arguments:
+        search_api_fulltext:
+          exception:
+            title: الكل
+  page:
+    display_title: الصفحة
+  page_no_value:
+    display_options:
+      menu:
+        title: المستخدمين

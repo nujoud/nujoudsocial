@@ -1,0 +1,11 @@
+uuid: 43126d1b-6e14-450b-a2e3-4a2e275eddee
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.open_group
+id: group.open_group
+target_entity_type_id: group
+target_bundle: open_group
+default_langcode: site_default
+language_alterable: false

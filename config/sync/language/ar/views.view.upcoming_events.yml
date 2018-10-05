@@ -1,0 +1,19 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: انتقاء
+          reset_button_label: 'إعادة الضبط'
+  block_my_upcoming_events:
+    display_options:
+      arguments:
+        field_account_target_id:
+          exception:
+            title: الكل
+  upcoming_events_group:
+    display_options:
+      arguments:
+        gid:
+          exception:
+            title: الكل

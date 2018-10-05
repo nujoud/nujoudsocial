@@ -1,0 +1,19 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: 'إعادة الضبط'
+      arguments:
+        nid:
+          exception:
+            title: الكل
+  event_enrollments:
+    display_title: الصندوق
+    display_options:
+      arguments:
+        nid:
+          exception:
+            title: الكل
+  view_enrollments:
+    display_title: الصفحة

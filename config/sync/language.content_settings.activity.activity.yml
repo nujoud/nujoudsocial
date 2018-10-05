@@ -1,0 +1,11 @@
+uuid: c99a185d-f248-484d-bc55-92d4ea162403
+langcode: en
+status: true
+dependencies:
+  module:
+    - activity_creator
+id: activity.activity
+target_entity_type_id: activity
+target_bundle: activity
+default_langcode: site_default
+language_alterable: false

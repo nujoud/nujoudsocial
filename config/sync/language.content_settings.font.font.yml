@@ -1,0 +1,11 @@
+uuid: 9abbaae5-49fc-4697-bd28-10018f8d4288
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_font
+id: font.font
+target_entity_type_id: font
+target_bundle: font
+default_langcode: site_default
+language_alterable: false

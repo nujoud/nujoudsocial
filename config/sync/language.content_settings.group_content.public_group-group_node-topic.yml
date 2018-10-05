@@ -1,0 +1,11 @@
+uuid: 6ed24bd1-86df-425d-8a41-277cff83bca2
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.public_group-group_node-topic
+id: group_content.public_group-group_node-topic
+target_entity_type_id: group_content
+target_bundle: public_group-group_node-topic
+default_langcode: site_default
+language_alterable: false

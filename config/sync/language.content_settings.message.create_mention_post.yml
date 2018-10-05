@@ -1,0 +1,11 @@
+uuid: 042575ff-41df-4694-8c54-125e45d2e8a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - message.template.create_mention_post
+id: message.create_mention_post
+target_entity_type_id: message
+target_bundle: create_mention_post
+default_langcode: site_default
+language_alterable: false

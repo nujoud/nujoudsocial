@@ -1,0 +1,11 @@
+uuid: f3b06718-9eea-490f-a1eb-6260066cebae
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.public_group-group_membership
+id: group_content.public_group-group_membership
+target_entity_type_id: group_content
+target_bundle: public_group-group_membership
+default_langcode: site_default
+language_alterable: false

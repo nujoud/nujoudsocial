@@ -1,0 +1,50 @@
+label: المحتوى
+description: 'إيجاد وإدارة المحتوى'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: انتقاء
+          reset_button_label: 'إعادة الضبط'
+      fields:
+        title:
+          label: العنوان
+        name:
+          label: المؤلف
+        status:
+          label: الحالة
+          settings:
+            format_custom_true: منشور
+        changed:
+          label: التحديث
+        operations:
+          label: عمليات
+      filters:
+        status:
+          expose:
+            label: الحالة
+          group_info:
+            group_items:
+              1:
+                title: منشور
+        type:
+          expose:
+            label: النوع
+        title:
+          expose:
+            label: العنوان
+        langcode:
+          expose:
+            label: اللغة
+      title: المحتوى
+      empty:
+        area_text_custom:
+          content: 'لا يوجد محتوى.'
+  page_1:
+    display_options:
+      menu:
+        title: المحتوى
+      tab_options:
+        title: المحتوى
+    display_title: الصفحة

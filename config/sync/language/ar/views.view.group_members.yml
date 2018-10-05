@@ -1,0 +1,14 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: 'إعادة الضبط'
+      arguments:
+        gid:
+          exception:
+            title: الكل
+  block_newest_members:
+    display_title: الصندوق
+  page_group_members:
+    display_title: الصفحة

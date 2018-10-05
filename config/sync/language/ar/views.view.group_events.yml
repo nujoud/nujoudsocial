@@ -1,0 +1,12 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: 'إعادة الضبط'
+      arguments:
+        gid:
+          exception:
+            title: الكل
+  page_group_events:
+    display_title: الصفحة

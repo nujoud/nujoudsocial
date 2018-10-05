@@ -1,0 +1,11 @@
+uuid: 58b59558-d940-4d47-8751-ba9c32bdd6a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - social_post.post_type.photo
+id: post.photo
+target_entity_type_id: post
+target_bundle: photo
+default_langcode: site_default
+language_alterable: false

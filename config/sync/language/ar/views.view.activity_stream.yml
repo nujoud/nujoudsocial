@@ -1,0 +1,8 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          reset_button_label: 'إعادة الضبط'
+  page_activity_stream:
+    display_title: الصفحة

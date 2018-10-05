@@ -1,0 +1,11 @@
+uuid: cdc42b96-fb4b-4daf-acf4-639a18a7676a
+langcode: en
+status: true
+dependencies:
+  config:
+    - message.template.create_comment_post_profile
+id: message.create_comment_post_profile
+target_entity_type_id: message
+target_bundle: create_comment_post_profile
+default_langcode: site_default
+language_alterable: false

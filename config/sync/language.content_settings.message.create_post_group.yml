@@ -1,0 +1,11 @@
+uuid: 27f2949f-abd8-4d61-8e5b-b0acc23c2657
+langcode: en
+status: true
+dependencies:
+  config:
+    - message.template.create_post_group
+id: message.create_post_group
+target_entity_type_id: message
+target_bundle: create_post_group
+default_langcode: site_default
+language_alterable: false

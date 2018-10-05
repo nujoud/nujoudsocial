@@ -1,0 +1,11 @@
+uuid: 76e741c4-7f57-4b61-9c8b-5cfbc78a4b4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - message.template.create_event_group
+id: message.create_event_group
+target_entity_type_id: message
+target_bundle: create_event_group
+default_langcode: site_default
+language_alterable: false

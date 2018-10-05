@@ -1,0 +1,11 @@
+uuid: b430f8fd-2f99-404d-a210-9afc2fa3199e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.expertise
+id: taxonomy_term.expertise
+target_entity_type_id: taxonomy_term
+target_bundle: expertise
+default_langcode: site_default
+language_alterable: false

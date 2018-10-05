@@ -1,0 +1,11 @@
+uuid: fe230ff8-9098-4f0a-ab7b-3a02f90861d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.closed_group
+id: group.closed_group
+target_entity_type_id: group
+target_bundle: closed_group
+default_langcode: site_default
+language_alterable: false

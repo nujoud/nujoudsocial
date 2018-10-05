@@ -1,0 +1,11 @@
+uuid: 5914a4d9-0cff-46b3-b95d-aff0bc47659d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero_call_to_action_block
+id: block_content.hero_call_to_action_block
+target_entity_type_id: block_content
+target_bundle: hero_call_to_action_block
+default_langcode: site_default
+language_alterable: false

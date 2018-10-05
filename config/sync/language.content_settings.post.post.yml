@@ -1,0 +1,11 @@
+uuid: 78dd4b80-8515-405a-b76f-aa007996199c
+langcode: en
+status: true
+dependencies:
+  config:
+    - social_post.post_type.post
+id: post.post
+target_entity_type_id: post
+target_bundle: post
+default_langcode: site_default
+language_alterable: false

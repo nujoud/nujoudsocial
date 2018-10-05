@@ -1,0 +1,11 @@
+uuid: 526c627e-34c7-49d1-9de7-5f289877bf3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - message.template.create_mention_comment
+id: message.create_mention_comment
+target_entity_type_id: message
+target_bundle: create_mention_comment
+default_langcode: site_default
+language_alterable: false

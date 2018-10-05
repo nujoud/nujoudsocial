@@ -51,4 +51,5 @@ content:
 hidden:
   contact: true
   groups: true
+  langcode: true
   language: true

@@ -1,0 +1,11 @@
+uuid: 10b0e66f-3344-47b2-9869-4f097b775955
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.content_type.public_group-group_node-event
+id: group_content.public_group-group_node-event
+target_entity_type_id: group_content
+target_bundle: public_group-group_node-event
+default_langcode: site_default
+language_alterable: false
