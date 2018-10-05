@@ -1,0 +1,38 @@
+/bin
+/html/core
+/html/modules/contrib
+/html/profiles/contrib
+/html/themes/contrib
+/html/sites/default/files
+/html/libraries
+vendor/
+.idea
+
+# Ignore configuration files that may contain sensitive information.
+html/sites/*/settings*.php
+html/sites/*/services*.yml
+
+# Ignore paths that contain user-generated content.
+html/sites/*/files
+html/sites/*/private
+
+# Ignore SimpleTest multi-site environment.
+html/sites/simpletest
+
+# Ignore all sites except for default
+html/sites/*
+!html/sites/default
+!html/sites/development.services.yml
+!html/sites/example.settings.local.php
+!html/sites/example.sites.php
+!html/sites/README.txt
+!html/sites/sites.php
+
+# Ignore Drupal Core and Vendor Files.
+html/core
+html/profiles/*
+!html/profiles/README.txt
+html/modules/*
+!html/modules/README.txt
+html/themes/*
+!html/themes/README.txt
