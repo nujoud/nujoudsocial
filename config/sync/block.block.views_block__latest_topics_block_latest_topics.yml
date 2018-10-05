@@ -1,22 +1,22 @@
-uuid: 0e891ca1-1ec9-4f8c-b7ed-e6bebd08c54c
+uuid: 4cdaf3bf-e8ab-480a-9800-d14c59e14d2f
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.upcoming_events
+    - views.view.latest_topics
   module:
     - system
     - views
   theme:
     - socialblue
-id: socialblue_views_block__upcoming_events_upcoming_events_group
+id: views_block__latest_topics_block_latest_topics
 theme: socialblue
 region: complementary_bottom
-weight: -20
+weight: -18
 provider: null
-plugin: 'views_block:upcoming_events-upcoming_events_group'
+plugin: 'views_block:latest_topics-block_latest_topics'
 settings:
-  id: 'views_block:upcoming_events-upcoming_events_group'
+  id: 'views_block:latest_topics-block_latest_topics'
   label: ''
   provider: views
   label_display: visible
@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/group/*/stream\r\n/group/*/about"
+    pages: "/stream\r\n/explore"
     negate: false
     context_mapping: {  }

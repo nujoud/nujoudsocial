@@ -1,22 +1,22 @@
-uuid: 16da106e-5c5e-45ed-b5ce-5d3b50f5455e
+uuid: 807c0f52-dc74-4cd7-baec-2db4dda81ea8
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.upcoming_events
+    - views.view.latest_topics
   module:
     - system
     - views
   theme:
     - socialblue
-id: socialblue_exposedformupcoming_eventspage_community_events
+id: exposedformlatest_topicspage_latest_topics
 theme: socialblue
 region: complementary_top
-weight: -6
+weight: -9
 provider: null
-plugin: 'views_exposed_filter_block:upcoming_events-page_community_events'
+plugin: 'views_exposed_filter_block:latest_topics-page_latest_topics'
 settings:
-  id: 'views_exposed_filter_block:upcoming_events-page_community_events'
+  id: 'views_exposed_filter_block:latest_topics-page_latest_topics'
   label: ''
   provider: views
   label_display: visible
@@ -24,6 +24,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /community-events
+    pages: /all-topics
     negate: false
     context_mapping: {  }

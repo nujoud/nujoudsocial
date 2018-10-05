@@ -11,7 +11,7 @@ dependencies:
 id: socialblue_footer
 theme: socialblue
 region: footer
-weight: -23
+weight: -14
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

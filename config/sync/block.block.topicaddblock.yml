@@ -1,26 +1,26 @@
-uuid: 463cfc89-528c-468c-9e92-5d4b54798dd4
+uuid: 175f169d-00a8-4d56-a543-34df1e451933
 langcode: en
 status: true
 dependencies:
   module:
-    - social_event
+    - social_topic
     - system
   theme:
     - socialblue
-id: socialblue_event_add_block
+id: topicaddblock
 theme: socialblue
 region: complementary_top
-weight: -20
+weight: -19
 provider: null
-plugin: event_add_block
+plugin: topic_add_block
 settings:
-  id: event_add_block
-  label: 'Event add block'
-  provider: social_event
+  id: topic_add_block
+  label: 'Topic add block'
+  provider: social_topic
   label_display: '0'
 visibility:
   request_path:
     id: request_path
-    pages: '/user/*/events'
+    pages: '/user/*/topics'
     negate: false
     context_mapping: {  }

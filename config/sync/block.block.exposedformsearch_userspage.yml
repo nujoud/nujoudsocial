@@ -1,22 +1,22 @@
-uuid: 16da106e-5c5e-45ed-b5ce-5d3b50f5455e
+uuid: 45892c7e-9fe5-4370-8e71-34d09e22132b
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.upcoming_events
+    - views.view.search_users
   module:
     - system
     - views
   theme:
     - socialblue
-id: socialblue_exposedformupcoming_eventspage_community_events
+id: exposedformsearch_userspage
 theme: socialblue
 region: complementary_top
-weight: -6
+weight: -5
 provider: null
-plugin: 'views_exposed_filter_block:upcoming_events-page_community_events'
+plugin: 'views_exposed_filter_block:search_users-page'
 settings:
-  id: 'views_exposed_filter_block:upcoming_events-page_community_events'
+  id: 'views_exposed_filter_block:search_users-page'
   label: ''
   provider: views
   label_display: visible
@@ -24,6 +24,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /community-events
+    pages: "/search/users\r\n/search/users/*"
     negate: false
     context_mapping: {  }

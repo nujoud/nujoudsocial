@@ -7,7 +7,7 @@ dependencies:
 id: socialblue_local_actions
 theme: socialblue
 region: complementary_top
-weight: -18
+weight: -14
 provider: null
 plugin: local_actions_block
 settings:
