@@ -1,0 +1,21 @@
+uuid: 3bc91aff-e1ab-416e-99a7-11b16904d1bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+  theme:
+    - socialblue
+id: groupoperations
+theme: socialblue
+region: hidden
+weight: 0
+provider: null
+plugin: group_operations
+settings:
+  id: group_operations
+  label: 'Group operations'
+  provider: group
+  label_display: visible
+  context_mapping: {  }
+visibility: {  }
