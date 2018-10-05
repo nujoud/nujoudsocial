@@ -1,0 +1,23 @@
+uuid: 7b5b0970-c818-4d8b-87bc-3321463baaac
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - socialbase
+id: sitebranding
+theme: socialbase
+region: header
+weight: 3
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

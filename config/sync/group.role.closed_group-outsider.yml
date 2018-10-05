@@ -1,0 +1,23 @@
+uuid: 4024ed84-ef6d-4dd5-a524-60c096f9b0e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.closed_group
+_core:
+  default_config_hash: BnB8UlKsxLAf9vogpcokfEML8HdSE9ozA5CE502mIag
+id: closed_group-outsider
+label: Outsider
+weight: -101
+internal: true
+audience: outsider
+group_type: closed_group
+permissions_ui: true
+permissions:
+  - 'join group'
+  - 'view group'
+  - 'update own group_node:topic entity'
+  - 'update own group_node:event entity'
+  - 'access comments'
+  - 'view group_membership content'
+  - 'view group stream page'

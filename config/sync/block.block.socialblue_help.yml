@@ -1,0 +1,20 @@
+uuid: 4b2d8543-1f03-4f8d-bbba-5a1476f5b73a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - socialblue
+id: socialblue_help
+theme: socialblue
+region: content
+weight: -16
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
