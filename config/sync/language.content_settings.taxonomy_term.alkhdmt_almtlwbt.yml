@@ -1,0 +1,11 @@
+uuid: 3851abb8-ceb7-41bd-abe0-1b884d38cb1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.alkhdmt_almtlwbt
+id: taxonomy_term.alkhdmt_almtlwbt
+target_entity_type_id: taxonomy_term
+target_bundle: alkhdmt_almtlwbt
+default_langcode: current_interface
+language_alterable: false

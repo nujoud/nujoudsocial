@@ -1,0 +1,21 @@
+uuid: 0c11ca7c-edd6-419f-9636-16f664e6589e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hmamat
+    - node.type.realestates
+  module:
+    - options
+id: node.realestates.field_hmamat
+field_name: field_hmamat
+entity_type: node
+bundle: realestates
+label: حمامات
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

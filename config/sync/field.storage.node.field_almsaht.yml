@@ -1,0 +1,20 @@
+uuid: 6ff873c4-f674-4843-9810-b8abb822b8d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_almsaht
+field_name: field_almsaht
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

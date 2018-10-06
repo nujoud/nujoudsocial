@@ -1,0 +1,322 @@
+uuid: dfc7592c-8ef8-400b-9c63-bfc288985b94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.realestates.body
+    - field.field.node.realestates.field_alkhdmt_almtlwbt
+    - field.field.node.realestates.field_almntqt_alhy
+    - field.field.node.realestates.field_almsaht
+    - field.field.node.realestates.field_als_r
+    - field.field.node.realestates.field_alshar_
+    - field.field.node.realestates.field_alwlayt_almhafzt
+    - field.field.node.realestates.field_arqam_altwasl
+    - field.field.node.realestates.field_gh
+    - field.field.node.realestates.field_hmamat
+    - field.field.node.realestates.field_nw_al_qar
+    - field.field.node.realestates.field_rqm_almrb_
+    - field.field.node.realestates.field_rqm_alqt_t
+    - field.field.node.realestates.field_topic_comments
+    - field.field.node.realestates.field_topic_image
+    - image.style.social_x_large
+    - node.type.realestates
+  module:
+    - comment
+    - field_group
+    - image_widget_crop
+    - path
+    - telephone
+    - text
+third_party_settings:
+  field_group:
+    group_almhtwy:
+      children:
+        - title
+        - langcode
+        - uid
+        - created
+        - promote
+        - sticky
+        - path
+        - status
+      parent_name: ''
+      weight: 0
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: المحتوى
+      region: content
+    group_alns:
+      children:
+        - body
+        - field_topic_image
+      parent_name: ''
+      weight: 1
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: النص
+      region: content
+    group_nw_alkhdmt_almtlwbt:
+      children:
+        - field_alkhdmt_almtlwbt
+      parent_name: ''
+      weight: 6
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'نوع الخدمة المطلوبة'
+      region: content
+    group_nw_al_qar_:
+      children:
+        - field_nw_al_qar
+      parent_name: ''
+      weight: 7
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'نوع العقار '
+      region: content
+    group_m:
+      children:
+        - field_hmamat
+        - field_gh
+        - field_almsaht
+        - field_rqm_almrb_
+        - field_rqm_alqt_t
+      parent_name: ''
+      weight: 8
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: 'معلومات إضافية'
+      region: content
+    group_als_r:
+      children:
+        - field_als_r
+      parent_name: ''
+      weight: 10
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: السعر
+      region: content
+    group_arqam_altwasl:
+      children:
+        - field_arqam_altwasl
+      parent_name: ''
+      weight: 9
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: true
+      label: 'أرقام التواصل'
+      region: content
+    group_almwq_:
+      children:
+        - field_alwlayt_almhafzt
+        - field_almntqt_alhy
+        - field_alshar_
+      parent_name: ''
+      weight: 2
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        required_fields: true
+      label: الموقع
+      region: content
+id: node.realestates.default
+targetEntityType: node
+bundle: realestates
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_alkhdmt_almtlwbt:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_almntqt_alhy:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_almsaht:
+    weight: 8
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_als_r:
+    weight: 13
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_alshar_:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_alwlayt_almhafzt:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_arqam_altwasl:
+    weight: 8
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  field_gh:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_hmamat:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_nw_al_qar:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_rqm_almrb_:
+    weight: 9
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_rqm_alqt_t:
+    weight: 10
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_topic_comments:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_topic_image:
+    weight: 4
+    settings:
+      show_default_crop: true
+      warn_multiple_usages: true
+      preview_image_style: social_x_large
+      crop_preview_image_style: crop_thumbnail
+      crop_list:
+        - hero
+      progress_indicator: throbber
+      show_crop_area: false
+    third_party_settings: {  }
+    type: image_widget_crop
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 8
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

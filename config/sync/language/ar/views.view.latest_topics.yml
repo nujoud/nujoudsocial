@@ -4,9 +4,17 @@ display:
       exposed_form:
         options:
           reset_button_label: 'إعادة الضبط'
+      title: 'جميع الناقشات'
+      empty:
+        area_text_custom:
+          content: 'لم يتم العثور على مواضيع'
+  block_latest_topics:
+    display_options:
+      use_more_text: 'جميع الناقشات'
   group_topics_block:
     display_options:
       arguments:
         gid:
           exception:
             title: الكل
+      use_more_text: 'جميع الناقشات'

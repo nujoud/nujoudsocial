@@ -1,0 +1,23 @@
+uuid: 707b360f-cd4f-4f36-b38a-9906a410cca3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_als_r
+    - node.type.realestates
+id: node.realestates.field_als_r
+field_name: field_als_r
+entity_type: node
+bundle: realestates
+label: السعر
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: جنيه
+field_type: integer

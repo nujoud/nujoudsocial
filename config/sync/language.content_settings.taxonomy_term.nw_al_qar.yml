@@ -1,0 +1,11 @@
+uuid: 1dbbc8a0-0df9-4549-a2f2-2039645a51b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.nw_al_qar
+id: taxonomy_term.nw_al_qar
+target_entity_type_id: taxonomy_term
+target_bundle: nw_al_qar
+default_langcode: current_interface
+language_alterable: false

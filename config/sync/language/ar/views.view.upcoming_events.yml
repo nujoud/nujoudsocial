@@ -5,12 +5,21 @@ display:
         options:
           submit_button: انتقاء
           reset_button_label: 'إعادة الضبط'
+      empty:
+        area_text_custom:
+          content: 'لم يتم العثور على أحداث'
   block_my_upcoming_events:
     display_options:
       arguments:
         field_account_target_id:
           exception:
             title: الكل
+      empty:
+        area_text_custom:
+          content: 'لا توجد أحداث قادمة قمت بالتسجيل بها'
+  page_community_events:
+    display_options:
+      title: 'جميع الأحداث '
   upcoming_events_group:
     display_options:
       arguments:

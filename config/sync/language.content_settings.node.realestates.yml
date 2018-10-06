@@ -1,0 +1,11 @@
+uuid: ccabab53-6a27-4ae3-ae2a-8bda5e7a006c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.realestates
+id: node.realestates
+target_entity_type_id: node
+target_bundle: realestates
+default_langcode: site_default
+language_alterable: false

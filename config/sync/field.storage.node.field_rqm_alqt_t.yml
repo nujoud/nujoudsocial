@@ -1,0 +1,20 @@
+uuid: c67d0274-cc17-4d94-ba3d-74388ed84bbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_rqm_alqt_t
+field_name: field_rqm_alqt_t
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

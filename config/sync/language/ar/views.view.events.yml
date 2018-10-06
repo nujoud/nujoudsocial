@@ -5,6 +5,9 @@ display:
         options:
           submit_button: انتقاء
           reset_button_label: 'إعادة الضبط'
+      empty:
+        area_text_custom:
+          content: 'لم يتم العثور على أحداث لهذا المستخدم'
   events_overview:
     display_options:
       tab_options:

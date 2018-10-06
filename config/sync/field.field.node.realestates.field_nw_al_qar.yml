@@ -1,0 +1,29 @@
+uuid: 12aa1297-f2a8-4eb6-8df2-ae5214ef437e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nw_al_qar
+    - node.type.realestates
+    - taxonomy.vocabulary.nw_al_qar
+id: node.realestates.field_nw_al_qar
+field_name: field_nw_al_qar
+entity_type: node
+bundle: realestates
+label: 'نوع العقار'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      nw_al_qar: nw_al_qar
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

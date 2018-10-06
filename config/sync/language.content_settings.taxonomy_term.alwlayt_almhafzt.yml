@@ -1,0 +1,11 @@
+uuid: 28cec468-70f1-400e-a679-f65b84b9beec
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.alwlayt_almhafzt
+id: taxonomy_term.alwlayt_almhafzt
+target_entity_type_id: taxonomy_term
+target_bundle: alwlayt_almhafzt
+default_langcode: current_interface
+language_alterable: false

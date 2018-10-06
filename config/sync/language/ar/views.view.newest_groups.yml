@@ -5,3 +5,7 @@ display:
         options:
           submit_button: انتقاء
           reset_button_label: 'إعادة الضبط'
+      title: 'جميع المجموعات'
+  block_newest_groups:
+    display_options:
+      use_more_text: 'جميع المجموعات'

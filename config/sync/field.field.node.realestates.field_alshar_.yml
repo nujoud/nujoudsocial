@@ -1,0 +1,19 @@
+uuid: 73449eb7-163a-442c-8069-c59a4827e9e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_alshar_
+    - node.type.realestates
+id: node.realestates.field_alshar_
+field_name: field_alshar_
+entity_type: node
+bundle: realestates
+label: الشارع
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

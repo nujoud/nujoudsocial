@@ -1,0 +1,22 @@
+uuid: 1ea5daa6-0b24-425d-9123-786c9491d2b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.realestates
+  module:
+    - text
+id: node.realestates.body
+field_name: body
+entity_type: node
+bundle: realestates
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

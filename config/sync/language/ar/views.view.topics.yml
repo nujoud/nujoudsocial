@@ -6,6 +6,10 @@ display:
           submit_button: انتقاء
           reset_button_label: 'إعادة الضبط'
       title: المناقشات
+      empty:
+        area:
+          content:
+            value: 'لم يتم العثور على مواضيع لهذا المستخدم'
       arguments:
         uid:
           exception:
@@ -17,6 +21,7 @@ display:
         uid:
           exception:
             title: الكل
+      use_more_text: 'جميع الناقشات'
   page_profile:
     display_title: الصفحة
     display_options:

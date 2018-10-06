@@ -8,3 +8,6 @@ display:
         group_membership_or_creator:
           exception:
             title: الكل
+  block_user_groups:
+    display_options:
+      use_more_text: 'جميع المجموعات'

@@ -1,0 +1,21 @@
+uuid: 6a0667e5-f364-4463-ad3e-32edc991f751
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_arqam_altwasl
+    - node.type.realestates
+  module:
+    - telephone
+id: node.realestates.field_arqam_altwasl
+field_name: field_arqam_altwasl
+entity_type: node
+bundle: realestates
+label: 'أرقام التواصل'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

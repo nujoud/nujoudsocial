@@ -1,0 +1,23 @@
+uuid: bb05e14e-51c9-438a-ab69-363bfda9825f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_almsaht
+    - node.type.realestates
+id: node.realestates.field_almsaht
+field_name: field_almsaht
+entity_type: node
+bundle: realestates
+label: المساحة
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: م2
+field_type: integer

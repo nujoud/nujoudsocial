@@ -1,0 +1,21 @@
+uuid: 8145e9b0-5ed7-4062-a9fd-51db937782f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gh
+    - node.type.realestates
+  module:
+    - options
+id: node.realestates.field_gh
+field_name: field_gh
+entity_type: node
+bundle: realestates
+label: غرف
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

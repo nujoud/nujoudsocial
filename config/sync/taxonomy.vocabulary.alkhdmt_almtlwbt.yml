@@ -1,0 +1,9 @@
+uuid: eb4e8022-eb3b-4235-b431-3034c35b204a
+langcode: ar
+status: true
+dependencies: {  }
+name: 'الخدمة المطلوبة'
+vid: alkhdmt_almtlwbt
+description: ''
+hierarchy: 0
+weight: 0
