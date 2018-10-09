@@ -1,4 +1,4 @@
-enable_email_notifications: true
+enable_email_notifications: false
 send_by_default: false
 hide_form_filter_tips: false
 _core:

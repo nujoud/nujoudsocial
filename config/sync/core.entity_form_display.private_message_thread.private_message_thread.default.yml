@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - private_message
+    - social_private_message
 _core:
   default_config_hash: Rk2DX-IIUCWycmJwAv3f9hzzfF_DdBPy51uNPdDWsCc
 id: private_message_thread.private_message_thread.default
@@ -12,12 +13,12 @@ bundle: private_message_thread
 mode: default
 content:
   members:
-    weight: -2
+    type: social_private_message_thread_member_widget
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
-    third_party_settings: {  }
-    type: entity_reference_autocomplete
+    weight: -3
     region: content
+    third_party_settings: {  }
 hidden: {  }
