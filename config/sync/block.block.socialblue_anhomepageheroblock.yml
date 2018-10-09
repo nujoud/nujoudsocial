@@ -27,7 +27,7 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /stream
+    pages: "/stream\r\n/all-aqar"
     negate: false
     context_mapping: {  }
   user_role:

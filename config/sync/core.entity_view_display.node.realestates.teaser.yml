@@ -5,8 +5,23 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.realestates.body
+    - field.field.node.realestates.field_alkhdmt_almtlwbt
+    - field.field.node.realestates.field_almntqt_alhy
+    - field.field.node.realestates.field_almsaht
+    - field.field.node.realestates.field_alshar_
+    - field.field.node.realestates.field_alwlayt_almhafzt
+    - field.field.node.realestates.field_arqam_altwasl
+    - field.field.node.realestates.field_gh
+    - field.field.node.realestates.field_hmamat
+    - field.field.node.realestates.field_nw_al_qar
+    - field.field.node.realestates.field_rqm_almrb_
+    - field.field.node.realestates.field_rqm_alqt_t
+    - field.field.node.realestates.field_topic_comments
+    - field.field.node.realestates.field_topic_image
+    - image.style.social_x_large
     - node.type.realestates
   module:
+    - image
     - text
     - user
 id: node.realestates.teaser
@@ -17,16 +32,41 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 3
     settings:
       trim_length: 600
     third_party_settings: {  }
     region: content
+  field_topic_image:
+    type: image
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      image_style: social_x_large
+      image_link: content
+    third_party_settings: {  }
   flag_follow_content:
-    weight: 10
+    weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
   links:
-    weight: 100
+    weight: 1
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  field_alkhdmt_almtlwbt: true
+  field_almntqt_alhy: true
+  field_almsaht: true
+  field_alshar_: true
+  field_alwlayt_almhafzt: true
+  field_arqam_altwasl: true
+  field_gh: true
+  field_hmamat: true
+  field_nw_al_qar: true
+  field_rqm_almrb_: true
+  field_rqm_alqt_t: true
+  field_topic_comments: true
   langcode: true

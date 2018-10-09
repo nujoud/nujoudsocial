@@ -1,0 +1,29 @@
+uuid: c6f09a1b-ac33-401e-af1e-1cfb88cb069c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_real_estate
+  module:
+    - system
+    - views
+  theme:
+    - socialblue
+id: exposedformlatest_real_estatepage_latest_topics
+theme: socialblue
+region: complementary_top
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:latest_real_estate-page_latest_topics'
+settings:
+  id: 'views_exposed_filter_block:latest_real_estate-page_latest_topics'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /all-aqar
+    negate: false
+    context_mapping: {  }

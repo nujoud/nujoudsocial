@@ -14,6 +14,7 @@ permissions:
   - 'access group search'
   - 'view like widget'
   - 'view node.event.field_content_visibility:public content'
+  - 'view node.landing_page.field_content_visibility:public content'
   - 'view node.page.field_content_visibility:public content'
   - 'view node.topic.field_content_visibility:public content'
   - 'view public posts'

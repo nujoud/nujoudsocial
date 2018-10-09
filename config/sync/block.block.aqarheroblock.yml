@@ -1,0 +1,25 @@
+uuid: d2e2c73b-ba8d-486a-8f44-57ff3d3b697f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero_call_to_action_block:fa609739-f1d1-49c3-a3a1-7ffc8bf545b6'
+  module:
+    - block_content
+  theme:
+    - socialblue
+id: aqarheroblock
+theme: socialblue
+region: hidden
+weight: -25
+provider: null
+plugin: 'block_content:fa609739-f1d1-49c3-a3a1-7ffc8bf545b6'
+settings:
+  id: 'block_content:fa609739-f1d1-49c3-a3a1-7ffc8bf545b6'
+  label: 'Aqar Hero Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

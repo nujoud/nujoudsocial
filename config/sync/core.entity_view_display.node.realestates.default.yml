@@ -21,11 +21,232 @@ dependencies:
     - field.field.node.realestates.field_topic_image
     - node.type.realestates
   module:
-    - comment
+    - field_group
+    - group_core_comments
     - image
     - options
+    - telephone
     - text
     - user
+third_party_settings:
+  field_group:
+    group_m_lwmat_al_qar:
+      children:
+        - group_ghrf
+        - group_hmamat
+        - group_rqm
+        - group_almsaht
+        - group_rqm_almrb_
+      parent_name: ''
+      weight: 7
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        open: false
+        required_fields: false
+      label: 'معلومات إضافية'
+      region: content
+    group_alkhdmt_almtlwbt:
+      children:
+        - field_alkhdmt_almtlwbt
+      parent_name: group_m_lwmat_asasyt
+      weight: 13
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+        description: ''
+      label: 'الخدمة المطلوبة'
+      region: content
+    group_nw_al_qar:
+      children:
+        - field_nw_al_qar
+      parent_name: group_m_lwmat_asasyt
+      weight: 12
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+        description: ''
+      label: 'نوع العقار'
+      region: content
+    group_als_r:
+      children:
+        - field_als_r
+      parent_name: ''
+      weight: 8
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+        description: ''
+      label: السعر
+      region: content
+    group_almsaht:
+      children:
+        - field_almsaht
+      parent_name: group_m_lwmat_al_qar
+      weight: 14
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+        description: ''
+      label: المساحة
+      region: content
+    group_rqm:
+      children:
+        - field_rqm_alqt_t
+      parent_name: group_m_lwmat_al_qar
+      weight: 13
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+        description: ''
+      label: 'رقم القطعة'
+      region: content
+    group_rqm_almrb_:
+      children:
+        - field_rqm_almrb_
+      parent_name: group_m_lwmat_al_qar
+      weight: 15
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+        description: ''
+      label: 'رقم المربع'
+      region: content
+    group_alwlayt_almhafzt:
+      children:
+        - field_alwlayt_almhafzt
+      parent_name: group_almwq_
+      weight: 12
+      format_type: fieldset
+      format_settings:
+        label: الولاية/المحافظة
+        element: div
+        show_label: '0'
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: ''
+        description: ''
+      label: الولاية/المحافظة
+      region: hidden
+    group_alshar_:
+      children:
+        - field_alshar_
+      parent_name: group_almwq_
+      weight: 14
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+        description: ''
+      label: الشارع
+      region: content
+    group_almntqt_alhy:
+      children:
+        - field_almntqt_alhy
+      parent_name: group_almwq_
+      weight: 13
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+        description: ''
+      label: المنطقة/الحي
+      region: content
+    group_m_lwmat_asasyt:
+      children:
+        - group_nw_al_qar
+        - group_alkhdmt_almtlwbt
+      parent_name: ''
+      weight: 5
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        effect: none
+        open: false
+        required_fields: false
+      label: 'معلومات اساسية'
+      region: content
+    group_almwq_:
+      children:
+        - group_almntqt_alhy
+        - group_alshar_
+        - group_alwlayt_almhafzt
+      parent_name: ''
+      weight: 6
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: false
+        description: ''
+      label: الموقع
+      region: content
+    group_ghrf:
+      children:
+        - field_gh
+      parent_name: group_m_lwmat_al_qar
+      weight: 11
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+      label: غرف
+      region: hidden
+    group_hmamat:
+      children:
+        - field_hmamat
+      parent_name: group_m_lwmat_al_qar
+      weight: 12
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+      label: حمامات
+      region: hidden
+    group_arqam_altwasl:
+      children:
+        - field_arqam_altwasl
+      parent_name: ''
+      weight: 9
+      format_type: fieldset
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+      label: 'أرقام التواصل'
+      region: content
 id: node.realestates.default
 targetEntityType: node
 bundle: realestates
@@ -34,29 +255,29 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 101
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     region: content
   field_alkhdmt_almtlwbt:
-    weight: 115
-    label: above
+    weight: 18
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_almntqt_alhy:
-    weight: 107
-    label: above
+    weight: 10
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
   field_almsaht:
-    weight: 106
-    label: above
+    weight: 19
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -64,62 +285,65 @@ content:
     type: number_integer
     region: content
   field_als_r:
-    weight: 104
+    weight: 27
     label: above
     settings:
       thousand_separator: ''
+      decimal_separator: .
+      scale: 2
       prefix_suffix: true
     third_party_settings: {  }
-    type: number_integer
+    type: number_decimal
     region: content
   field_alshar_:
-    weight: 105
-    label: above
+    weight: 12
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
   field_alwlayt_almhafzt:
-    weight: 114
-    label: above
+    weight: 13
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_arqam_altwasl:
-    weight: 110
+    weight: 11
     label: above
-    settings: {  }
+    settings:
+      title: ''
     third_party_settings: {  }
-    type: basic_string
+    type: telephone_link
     region: content
   field_gh:
-    weight: 109
-    label: above
+    weight: 9
+    label: inline
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   field_hmamat:
-    weight: 108
-    label: above
+    weight: 9
+    label: inline
     settings: {  }
     third_party_settings: {  }
     type: list_default
     region: content
   field_nw_al_qar:
-    weight: 113
-    label: above
+    weight: 13
+    label: inline
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
   field_rqm_almrb_:
-    weight: 112
-    label: above
+    weight: 21
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -127,8 +351,8 @@ content:
     type: number_integer
     region: content
   field_rqm_alqt_t:
-    weight: 111
-    label: above
+    weight: 15
+    label: inline
     settings:
       thousand_separator: ''
       prefix_suffix: true
@@ -136,16 +360,16 @@ content:
     type: number_integer
     region: content
   field_topic_comments:
-    weight: 103
+    weight: 4
     label: above
     settings:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-    type: comment_default
+    type: comment_group_content
     region: content
   field_topic_image:
-    weight: 102
+    weight: 3
     label: above
     settings:
       image_style: ''
@@ -154,10 +378,19 @@ content:
     type: image
     region: content
   flag_follow_content:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  private_message_link:
     weight: 10
     region: content
-  links:
-    weight: 100
-    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   langcode: true

@@ -1,4 +1,4 @@
-uuid: 707b360f-cd4f-4f36-b38a-9906a410cca3
+uuid: 4b970eb6-d379-436e-a25e-45ac2b9afdc9
 langcode: en
 status: true
 dependencies:
@@ -20,4 +20,4 @@ settings:
   max: null
   prefix: ''
   suffix: جنيه
-field_type: integer
+field_type: float

@@ -67,7 +67,7 @@ third_party_settings:
       children:
         - field_alkhdmt_almtlwbt
       parent_name: ''
-      weight: 6
+      weight: 3
       format_type: fieldset
       format_settings:
         id: ''
@@ -80,7 +80,7 @@ third_party_settings:
       children:
         - field_nw_al_qar
       parent_name: ''
-      weight: 7
+      weight: 4
       format_type: fieldset
       format_settings:
         id: ''
@@ -97,7 +97,7 @@ third_party_settings:
         - field_rqm_almrb_
         - field_rqm_alqt_t
       parent_name: ''
-      weight: 8
+      weight: 5
       format_type: fieldset
       format_settings:
         id: ''
@@ -110,26 +110,33 @@ third_party_settings:
       children:
         - field_als_r
       parent_name: ''
-      weight: 10
+      weight: 7
       format_type: fieldset
       format_settings:
         id: ''
         classes: ''
         description: ''
         required_fields: true
+        open: false
       label: السعر
       region: content
     group_arqam_altwasl:
       children:
         - field_arqam_altwasl
       parent_name: ''
-      weight: 9
-      format_type: details
+      weight: 6
+      format_type: html_element
       format_settings:
+        label: 'أرقام التواصل'
+        element: div
+        show_label: false
+        label_element: h3
+        required_fields: true
+        attributes: ''
+        effect: collapsible
+        speed: slow
         id: ''
         classes: ''
-        open: false
-        required_fields: true
       label: 'أرقام التواصل'
       region: content
     group_almwq_:
@@ -189,7 +196,7 @@ content:
     type: number
     region: content
   field_als_r:
-    weight: 13
+    weight: 26
     settings:
       placeholder: ''
     third_party_settings: {  }
@@ -249,7 +256,7 @@ content:
     type: number
     region: content
   field_topic_comments:
-    weight: 11
+    weight: 8
     settings: {  }
     third_party_settings: {  }
     type: comment_default

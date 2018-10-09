@@ -9,7 +9,7 @@ dependencies:
 id: groupoperations
 theme: socialblue
 region: hidden
-weight: 0
+weight: -26
 provider: null
 plugin: group_operations
 settings:

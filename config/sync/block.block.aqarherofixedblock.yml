@@ -1,0 +1,42 @@
+uuid: 61c6d722-1e36-4804-97cf-efa37518b3c5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:hero_call_to_action_block:c8ca632f-61f3-475a-b4a2-fd503c733cc9'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - socialblue
+id: aqarherofixedblock
+theme: socialblue
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:c8ca632f-61f3-475a-b4a2-fd503c733cc9'
+settings:
+  id: 'block_content:c8ca632f-61f3-475a-b4a2-fd503c733cc9'
+  label: 'Aqar Hero Fixed Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /all-aqar
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+      contentmanager: contentmanager
+      sitemanager: sitemanager
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
