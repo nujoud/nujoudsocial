@@ -30,6 +30,7 @@ permissions:
   - 'create event content'
   - 'create open_group group'
   - 'create public_group group'
+  - 'create realestates content'
   - 'create topic content'
   - 'delete own comments'
   - 'delete own event content'

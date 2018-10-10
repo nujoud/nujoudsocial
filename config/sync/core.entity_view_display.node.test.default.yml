@@ -1,0 +1,31 @@
+uuid: 54e54c10-0546-4290-be22-10ffb19ab5fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.test.body
+    - node.type.test
+  module:
+    - text
+    - user
+id: node.test.default
+targetEntityType: node
+bundle: test
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  flag_follow_content:
+    weight: 10
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  private_message_link: true
