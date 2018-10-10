@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - private_message
+    - social_private_message
     - text
 _core:
   default_config_hash: SlmNpnxfsmhs7bIGIDGODcMR1vFb7yyYAs-imNpMKKQ
@@ -30,13 +31,13 @@ content:
     settings: {  }
     third_party_settings: {  }
   owner:
-    weight: 3
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
+    label: hidden
+    type: social_private_message_owner_formatter
+    weight: 1
     region: content
+    settings:
+      link: false
+    third_party_settings: {  }
   timestamp:
     weight: 0
     region: content
