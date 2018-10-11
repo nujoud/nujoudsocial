@@ -1,0 +1,32 @@
+uuid: bb9bb0a5-5235-41e1-978e-7055f4d9db14
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+    - node
+  theme:
+    - socialblue
+_core:
+  default_config_hash: YKMSNYSOhvb-FQBPcmm6rQSnHOIg__RMkcbtj8mFxFI
+id: addtoanybuttons_2
+theme: socialblue
+region: complementary_bottom
+weight: -25
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: 'Share this page'
+  provider: addtoany
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      event: event
+      page: page
+      topic: topic
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

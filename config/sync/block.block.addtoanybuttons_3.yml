@@ -1,0 +1,31 @@
+uuid: a528b579-9f23-4f28-8444-bb29b03fad57
+langcode: en
+status: true
+dependencies:
+  module:
+    - addtoany
+    - node
+  theme:
+    - socialblue
+id: addtoanybuttons_3
+theme: socialblue
+region: complementary_top
+weight: 0
+provider: null
+plugin: addtoany_block
+settings:
+  id: addtoany_block
+  label: 'Share this page'
+  provider: addtoany
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      event: event
+      page: page
+      realestates: realestates
+      topic: topic
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
