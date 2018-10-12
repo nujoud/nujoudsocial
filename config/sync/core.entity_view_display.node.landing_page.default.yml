@@ -68,6 +68,7 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  addtoany: true
   field_content_visibility: true
   langcode: true
   private_message_link: true

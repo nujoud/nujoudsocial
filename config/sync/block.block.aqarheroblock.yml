@@ -11,7 +11,7 @@ dependencies:
 id: aqarheroblock
 theme: socialblue
 region: hidden
-weight: -25
+weight: -27
 provider: null
 plugin: 'block_content:fa609739-f1d1-49c3-a3a1-7ffc8bf545b6'
 settings:

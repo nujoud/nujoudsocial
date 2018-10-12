@@ -611,7 +611,7 @@ display:
           exposed: true
           expose:
             operator_id: field_nw_al_qar_target_id_op
-            label: 'نوع العقار (field_nw_al_qar)'
+            label: 'نوع العقار '
             description: ''
             use_operator: false
             operator: field_nw_al_qar_target_id_op
