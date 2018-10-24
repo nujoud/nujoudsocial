@@ -8,7 +8,16 @@ display:
       empty:
         area_text_custom:
           content: 'لم يتم العثور على أحداث لهذا المستخدم'
+  block_events_on_profile:
+    display_options:
+      title: 'الأحداث القادمة'
   events_overview:
     display_options:
       tab_options:
         title: المناقشات
+      filters:
+        field_event_date_value:
+          group_info:
+            group_items:
+              1:
+                title: 'الأحداث القادمة'

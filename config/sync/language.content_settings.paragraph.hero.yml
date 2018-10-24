@@ -1,0 +1,11 @@
+uuid: df916a5d-faf1-455f-97ec-e48ebabe45ee
+langcode: ar
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.hero
+id: paragraph.hero
+target_entity_type_id: paragraph
+target_bundle: hero
+default_langcode: site_default
+language_alterable: false

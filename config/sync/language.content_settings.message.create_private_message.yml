@@ -1,0 +1,11 @@
+uuid: 5da0c17c-f87f-4c94-aaf3-852bbd682417
+langcode: ar
+status: true
+dependencies:
+  config:
+    - message.template.create_private_message
+id: message.create_private_message
+target_entity_type_id: message
+target_bundle: create_private_message
+default_langcode: site_default
+language_alterable: false

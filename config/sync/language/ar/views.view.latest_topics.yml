@@ -1,8 +1,10 @@
+label: 'أحدث المواضيع'
 display:
   default:
     display_options:
       exposed_form:
         options:
+          submit_button: إنتقاء
           reset_button_label: 'إعادة الضبط'
       title: 'جميع الناقشات'
       empty:
@@ -10,11 +12,17 @@ display:
           content: 'لم يتم العثور على مواضيع'
   block_latest_topics:
     display_options:
+      title: 'المواضيع الجديدة'
       use_more_text: 'جميع الناقشات'
   group_topics_block:
     display_options:
+      block_description: 'احدث مواضيع المجموعة'
+      empty:
+        area_text_custom:
+          content: 'لا توجد مواضيع في هذه المجموعة'
       arguments:
         gid:
           exception:
             title: الكل
+      title: 'المواضيع الجديدة'
       use_more_text: 'جميع الناقشات'

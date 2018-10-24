@@ -3,4 +3,13 @@ display:
     display_options:
       exposed_form:
         options:
+          submit_button: إنتقاء
           reset_button_label: 'إعادة الضبط'
+      title: 'الأعضاء الجدد'
+  block_newest_users:
+    display_options:
+      title: 'الأعضاء الجدد'
+      use_more_text: 'كل الأعضاء'
+  page_newest_users:
+    display_options:
+      title: 'كل الأعضاء'

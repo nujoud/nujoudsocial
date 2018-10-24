@@ -3,6 +3,7 @@ display:
     display_options:
       exposed_form:
         options:
+          submit_button: إنتقاء
           reset_button_label: 'إعادة الضبط'
       arguments:
         nid:

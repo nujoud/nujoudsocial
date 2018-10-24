@@ -7,5 +7,5 @@ dependencies:
 id: block_content.platform_intro
 target_entity_type_id: block_content
 target_bundle: platform_intro
-default_langcode: site_default
+default_langcode: current_interface
 language_alterable: false

@@ -1,0 +1,11 @@
+uuid: 10d9fab1-32c4-4aee-80ac-aa2feb446e3d
+langcode: ar
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.introduction
+id: paragraph.introduction
+target_entity_type_id: paragraph
+target_bundle: introduction
+default_langcode: site_default
+language_alterable: false

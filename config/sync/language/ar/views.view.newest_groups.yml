@@ -1,3 +1,4 @@
+label: 'المجموعات الجديدة'
 display:
   default:
     display_options:
@@ -8,4 +9,5 @@ display:
       title: 'جميع المجموعات'
   block_newest_groups:
     display_options:
+      title: 'المجموعات الجديدة'
       use_more_text: 'جميع المجموعات'

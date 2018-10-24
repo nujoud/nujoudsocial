@@ -5,6 +5,9 @@ display:
         options:
           submit_button: انتقاء
           reset_button_label: 'إعادة الضبط'
+      empty:
+        area_text_custom:
+          content: 'لا توجد مواضيع في هذه المجموعة'
       arguments:
         gid:
           exception:

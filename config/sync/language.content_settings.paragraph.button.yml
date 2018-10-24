@@ -1,0 +1,11 @@
+uuid: 23127183-e3cf-4ff8-9e32-2bc2df0924c9
+langcode: ar
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.button
+id: paragraph.button
+target_entity_type_id: paragraph
+target_bundle: button
+default_langcode: site_default
+language_alterable: false

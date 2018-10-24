@@ -3,12 +3,22 @@ display:
     display_options:
       exposed_form:
         options:
+          submit_button: إنتقاء
           reset_button_label: 'إعادة الضبط'
+      empty:
+        area:
+          content:
+            value: 'لا أعضاء في هذه المجموعة'
       arguments:
         gid:
           exception:
             title: الكل
   block_newest_members:
     display_title: الصندوق
+    display_options:
+      empty:
+        area_text_custom:
+          content: 'لا أعضاء في هذه المجموعة'
+      use_more_text: 'كل الأعضاء'
   page_group_members:
     display_title: الصفحة

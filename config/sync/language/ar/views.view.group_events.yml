@@ -3,7 +3,14 @@ display:
     display_options:
       exposed_form:
         options:
+          submit_button: إنتقاء
           reset_button_label: 'إعادة الضبط'
+      filters:
+        field_event_date_value:
+          group_info:
+            group_items:
+              1:
+                title: 'الأحداث القادمة'
       arguments:
         gid:
           exception:

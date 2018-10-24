@@ -7,5 +7,5 @@ dependencies:
 id: font.font
 target_entity_type_id: font
 target_bundle: font
-default_langcode: site_default
+default_langcode: current_interface
 language_alterable: false

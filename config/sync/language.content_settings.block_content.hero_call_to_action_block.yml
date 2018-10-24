@@ -7,5 +7,5 @@ dependencies:
 id: block_content.hero_call_to_action_block
 target_entity_type_id: block_content
 target_bundle: hero_call_to_action_block
-default_langcode: site_default
+default_langcode: current_interface
 language_alterable: false

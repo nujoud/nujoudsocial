@@ -28,6 +28,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  groups:
+    type: options_select
+    settings: {  }
+    weight: 16
+    region: content
+    third_party_settings: {  }
   langcode:
     type: language_select
     weight: 2
