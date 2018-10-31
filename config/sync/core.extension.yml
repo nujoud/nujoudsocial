@@ -18,6 +18,7 @@ module:
   color: 0
   comment: 0
   config: 0
+  config_translation: 0
   config_update: 0
   contextual: 0
   crop: 0
@@ -76,6 +77,7 @@ module:
   social_follow_content: 0
   social_font: 0
   social_landing_page: 0
+  social_language: 0
   social_like: 0
   social_mentions: 0
   social_page: 0
@@ -103,6 +105,7 @@ module:
   menu_link_content: 1
   social_private_message: 1
   social_group: 2
+  content_translation: 10
   views: 10
   paragraphs: 11
   improved_theme_settings: 50
