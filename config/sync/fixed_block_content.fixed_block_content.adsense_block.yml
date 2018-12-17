@@ -1,0 +1,10 @@
+uuid: 649a2757-71c7-445c-bd15-e9b7d6cc8785
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.platform_intro
+id: adsense_block
+title: 'Adsense Block'
+block_content_bundle: platform_intro
+default_content: null
