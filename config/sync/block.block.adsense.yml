@@ -1,0 +1,25 @@
+uuid: fae8b2cb-e266-42a3-b1f3-7ddc5638ddcf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:platform_intro:0989dd36-2d9d-4cab-b4ad-90c3b0bbebea'
+  module:
+    - block_content
+  theme:
+    - socialblue
+id: adsense
+theme: socialblue
+region: complementary_bottom
+weight: 0
+provider: null
+plugin: 'block_content:0989dd36-2d9d-4cab-b4ad-90c3b0bbebea'
+settings:
+  id: 'block_content:0989dd36-2d9d-4cab-b4ad-90c3b0bbebea'
+  label: Adsense
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
