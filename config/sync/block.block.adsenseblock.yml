@@ -1,0 +1,23 @@
+uuid: 709b210d-4b18-4a5d-93f4-8386d5eec41b
+langcode: en
+status: true
+dependencies:
+  config:
+    - fixed_block_content.fixed_block_content.adsense_block
+  module:
+    - fixed_block_content
+  theme:
+    - socialblue
+id: adsenseblock
+theme: socialblue
+region: complementary_bottom
+weight: 0
+provider: null
+plugin: 'fixed_block_content:adsense_block'
+settings:
+  id: 'fixed_block_content:adsense_block'
+  label: 'Adsense Block'
+  provider: fixed_block_content
+  label_display: visible
+  view_mode: ''
+visibility: {  }
