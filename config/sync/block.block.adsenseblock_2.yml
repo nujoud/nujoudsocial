@@ -1,0 +1,25 @@
+uuid: 699b5c4e-409b-4704-83ec-4bbffb436730
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:platform_intro:f193c50f-92ff-4ec3-9afd-58c71147b618'
+  module:
+    - block_content
+  theme:
+    - socialblue
+id: adsenseblock_2
+theme: socialblue
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:f193c50f-92ff-4ec3-9afd-58c71147b618'
+settings:
+  id: 'block_content:f193c50f-92ff-4ec3-9afd-58c71147b618'
+  label: 'Adsense Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

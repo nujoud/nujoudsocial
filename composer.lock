@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "45b7e8788313ae42db22916e474c2e9b",
+    "content-hash": "0a8c38309a6724de99147e960bbe0ab1",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -117,7 +117,7 @@
             "version": "4.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jackmoore/autosize.git",
+                "url": "https://github.com/jackmoore/autosize.git",
                 "reference": "113f1b345868901619d4b01cda02b09aa1690ebd"
             },
             "dist": {
@@ -306,12 +306,12 @@
             "version": "4.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/select2/select2.git",
+                "url": "git@github.com:ivaynberg/select2.git",
                 "reference": "566c7846fbf8c3b7674346f26d0ee872c0a77629"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/select2/select2/zipball/566c7846fbf8c3b7674346f26d0ee872c0a77629",
+                "url": "https://api.github.com/repos/ivaynberg/select2/zipball/566c7846fbf8c3b7674346f26d0ee872c0a77629",
                 "reference": "566c7846fbf8c3b7674346f26d0ee872c0a77629",
                 "shasum": null
             },
@@ -1352,6 +1352,58 @@
             }
         },
         {
+            "name": "drupal/adsense",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/adsense",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/adsense-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "a8072dc5cc54f2c333f29fb22ff457cb6a3121d7"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1492959842",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "João Ventura",
+                    "homepage": "https://www.drupal.org/u/jcnventura"
+                },
+                {
+                    "name": "kbahey",
+                    "homepage": "https://www.drupal.org/user/4063"
+                }
+            ],
+            "description": "Displays Google AdSense ads on your site to earn revenue.",
+            "homepage": "https://drupal.org/project/adsense",
+            "support": {
+                "source": "http://cgit.drupalcode.org/adsense",
+                "issues": "https://www.drupal.org/project/issues/adsense"
+            }
+        },
+        {
             "name": "drupal/block_field",
             "version": "1.0.0-alpha5",
             "source": {
@@ -1430,7 +1482,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.9",
-                    "datestamp": "1519144980",
+                    "datestamp": "1543447542",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2553,6 +2605,10 @@
                 {
                     "name": "kristiaanvandeneynde",
                     "homepage": "https://www.drupal.org/user/1345130"
+                },
+                {
+                    "name": "ronaldtebrake",
+                    "homepage": "https://www.drupal.org/user/2314038"
                 }
             ],
             "description": "This module allows you to group users, content and other entities",
