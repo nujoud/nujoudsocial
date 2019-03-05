@@ -7,5 +7,5 @@ dependencies:
 id: node.realestates
 target_entity_type_id: node
 target_bundle: realestates
-default_langcode: site_default
+default_langcode: current_interface
 language_alterable: false
